@@ -1,0 +1,16 @@
+{
+    "FakeServiceApiAuthentication": {
+        "TenantId": "12345d2e-abc2-8127-yh45-3ace87k96a00",
+        "ClientId": "y1b6q2cp-i228-1cp9-hml4-e1234fuijk29",
+        "ClientSecret": "L4gDmjCRBScMy87fmDH8fbRXpNmICNx77oGyV7JE8GQw",
+        "ResourceId": "https://averyfakegmail.onmicrosoft.com/superfake.fake.Api",
+        "ApiBaseAddress": "http://localhost:59022"
+    },
+    "FakeDataApiAuthentication": {
+        "TenantId": "averyfaketenantid.onmicrosoft.com",
+        "ClientId": "12d3bbe4-e1c2-3d99-12af-b14782487a12",
+        "ClientSecret": "w7qhr4DxhsV5cfN2jsWqT1geUB4rcuzijzWOlnuqCQRE",
+        "ResourceId": "https://averyfaketenantid.onmicrosoft.com/fakedata-api",
+        "ApiBaseAddress": "https://fake-fakedata.averyfake.superfake.fake.gov.uk/api"
+    }
+}
