@@ -18,5 +18,12 @@
         "ConnectionString": "BlobEndpoint=https://secteststg.blob.core.windows.net/;QueueEndpoint=https://secteststg.queue.core.windows.net/;FileEndpoint=https://secteststg.file.core.windows.net/;TableEndpoint=https://secteststg.table.core.windows.net/;SharedAccessSignature=sv=2020-08-04&ss=b&srt=c&sp=r&se=2021-09-02T10:31:46Z&st=2021-09-02T09:31:46Z&sip=86.154.196.19&spr=https&sig=2c2jwcmOPrk6pP6wJMPK8%2F6jvbHLWlxKH7aJeEB%2FqyY%3D",
         "AccessKey": "cLJxyYKlBviV6l9FmRkqxqnKV2atCIKY3PA+MsQBBBJsfRGDRoAwoRq6et8Dwb11rOxUL7w8GC/tBdp8Ms1BGQ==",
         "Password": "HICTTBxW1r47PuZTM3egmKwNfP6x6qzAZGf2hAjrevgH"
+    },
+    "StorageConnectionDetails2": {
+        "SasToken": "?sv=2020-08-04&ss=bfqt&srt=sco&sp=rwdlacuptfx&se=2021-09-30T17:21:41Z&st=2021-09-15T09:21:41Z&spr=https&sig=U0juK1EoiKPoe1hYHlBHBMzZCFaZip2hccYI%2Bhg%2Bztc%3D",
+        "ConnectionString": "BlobEndpoint=https://secteststg.blob.core.windows.net/;QueueEndpoint=https://secteststg.queue.core.windows.net/;FileEndpoint=https://secteststg.file.core.windows.net/;TableEndpoint=https://secteststg.table.core.windows.net/;SharedAccessSignature=sv=2020-08-04&ss=bfqt&srt=sco&sp=rwdlacuptfx&se=2021-09-30T17:21:41Z&st=2021-09-15T09:21:41Z&spr=https&sig=U0juK1EoiKPoe1hYHlBHBMzZCFaZip2hccYI%2Bhg%2Bztc%3D",
+        "AccessKey": "fftaZIv3d1iPsu6dd16DST23Ycy5rUZEa4lS1Yb0xodOlscHVh8MDpOv+KK8sRu0MrRzUxlxBoo+TT5URTMhew==",
+        "Password": "RlveBMEJbgSPDrFk9XWHBc8xiqA9PQ644ajObrllYSBI"
     }
 }
+
