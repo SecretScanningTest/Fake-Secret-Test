@@ -1,35 +1,9 @@
 {
     "FakeServiceApiAuthentication": {
-        "TenantId": "12345d2e-abc2-8127-yh45-3ace87k96a00",
-        "ClientId": "y1b6q2cp-i228-1cp9-hml4-e1234fuijk29",
-        "ClientSecret": "L4gDmjCRBScMy87fmDH8fbRXpNmICNx77oGyV7JE8GQw",
-        "ResourceId": "https://averyfakegmail.onmicrosoft.com/superfake.fake.Api",
-        "ApiBaseAddress": "http://localhost:59022"
-    },
-    "FakeDataApiAuthentication": {
-        "TenantId": "averyfaketenantid.onmicrosoft.com",
-        "ClientId": "12d3bbe4-e1c2-3d99-12af-b14782487a12",
-        "ClientSecret": "w7qhr4DxhsV5cfN2jsWqT1geUB4rcuzijzWOlnuqCQRE",
-        "ResourceId": "https://averyfaketenantid.onmicrosoft.com/fakedata-api",
-        "ApiBaseAddress": "https://fake-fakedata.averyfake.superfake.fake.gov.uk/api"
-    },
-    "StorageConnectionDetails": {
-        "SasToken": "?sv=2020-08-04&ss=b&srt=c&sp=r&se=2021-09-02T10:31:46Z&st=2021-09-02T09:31:46Z&sip=86.154.196.19&spr=https&sig=2c2jwcmOPrk6pP6wJMPK8%2F6jvbHLWlxKH7aJeEB%2FqyY%3D",
-        "ConnectionString": "BlobEndpoint=https://secteststg.blob.core.windows.net/;QueueEndpoint=https://secteststg.queue.core.windows.net/;FileEndpoint=https://secteststg.file.core.windows.net/;TableEndpoint=https://secteststg.table.core.windows.net/;SharedAccessSignature=sv=2020-08-04&ss=b&srt=c&sp=r&se=2021-09-02T10:31:46Z&st=2021-09-02T09:31:46Z&sip=86.154.196.19&spr=https&sig=2c2jwcmOPrk6pP6wJMPK8%2F6jvbHLWlxKH7aJeEB%2FqyY%3D",
-        "AccessKey": "cLJxyYKlBviV6l9FmRkqxqnKV2atCIKY3PA+MsQBBBJsfRGDRoAwoRq6et8Dwb11rOxUL7w8GC/tBdp8Ms1BGQ==",
-        "Password": "HICTTBxW1r47PuZTM3egmKwNfP6x6qzAZGf2hAjrevgH"
-    },
-    "StorageConnectionDetails2": {
-        "SasToken": "?sv=2020-08-04&ss=bfqt&srt=sco&sp=rwdlacuptfx&se=2021-09-30T17:21:41Z&st=2021-09-15T09:21:41Z&spr=https&sig=U0juK1EoiKPoe1hYHlBHBMzZCFaZip2hccYI%2Bhg%2Bztc%3D",
-        "ConnectionString": "BlobEndpoint=https://secteststg.blob.core.windows.net/;QueueEndpoint=https://secteststg.queue.core.windows.net/;FileEndpoint=https://secteststg.file.core.windows.net/;TableEndpoint=https://secteststg.table.core.windows.net/;SharedAccessSignature=sv=2020-08-04&ss=bfqt&srt=sco&sp=rwdlacuptfx&se=2021-09-30T17:21:41Z&st=2021-09-15T09:21:41Z&spr=https&sig=U0juK1EoiKPoe1hYHlBHBMzZCFaZip2hccYI%2Bhg%2Bztc%3D",
-        "AccessKey": "fftaZIv3d1iPsu6dd16DST23Ycy5rUZEa4lS1Yb0xodOlscHVh8MDpOv+KK8sRu0MrRzUxlxBoo+TT5URTMhew==",
-        "Password": "RlveBMEJbgSPDrFk9XWHBc8xiqA9PQ644ajObrllYSBI"
-    },
-    "StorageConnectionDetails3": {
-        "SasToken": "?sv=2020-08-04&ss=bfqt&srt=sco&sp=rwdlacuptfx&se=2021-09-30T17:21:41Z&st=2021-09-15T09:21:41Z&spr=https&sig=U0juK1EoiKPoe1hYHlBHBMzZCFaZip2hccYI%2Bhg%2Bztc%3D",
-        "ConnectionString": "BlobEndpoint=https://secteststg.blob.core.windows.net/;QueueEndpoint=https://secteststg.queue.core.windows.net/;FileEndpoint=https://secteststg.file.core.windows.net/;TableEndpoint=https://secteststg.table.core.windows.net/;SharedAccessSignature=sv=2020-08-04&ss=bfqt&srt=sco&sp=rwdlacuptfx&se=2021-09-30T17:21:41Z&st=2021-09-15T09:21:41Z&spr=https&sig=U0juK1EoiKPoe1hYHlBHBMzZCFaZip2hccYI%2Bhg%2Bztc%3D",
-        "AccessKey": "fftaZIv3d1iPsu6dd16DST23Ycy5rUZEa4lS1Yb0xodOlscHVh8MDpOv+KK8sRu0MrRzUxlxBoo+TT5URTMhew==",
-        "Password": "RlveBMEJbgSPDrFk9XWHBc8xiqA9PQ644ajObrllYSBI"
+        "SASTest": "?sv=2020-08-04&ss=bfqt&srt=s&sp=rwdlacuptfx&se=2021-09-25T01:23:49Z&st=2021-09-23T17:23:49Z&spr=https&sig=O41ciiyLv4DmCvvPt844FBqgjS%2FdQJ%2BVm8mgsoCYLVA%3D",
+        "SASConnectionString": "BlobEndpoint=https://secteststg.blob.core.windows.net/;QueueEndpoint=https://secteststg.queue.core.windows.net/;FileEndpoint=https://secteststg.file.core.windows.net/;TableEndpoint=https://secteststg.table.core.windows.net/;SharedAccessSignature=sv=2020-08-04&ss=bfqt&srt=s&sp=rwdlacuptfx&se=2021-09-25T01:23:49Z&st=2021-09-23T17:23:49Z&spr=https&sig=O41ciiyLv4DmCvvPt844FBqgjS%2FdQJ%2BVm8mgsoCYLVA%3D",
+        "AccessKey1": "i1eblDcJ5VK/KMojos81eBVSoUu+JWa2Snp8xR+UpaQZPkSOCjbQyrULpUPq0RHLVhz75FXShu04J0DqzHqLeQ==",
+        "AccessKey2": "a2JAWl35BIKHeGC4E6Y5HVYOanhtUDdXPGw5eL7P5ZElUvM3kQobxjTHfy8XZhYbyBY4vIN/JJcFYKhCHyE11Q=="
     }
 }
 
